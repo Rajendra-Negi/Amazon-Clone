@@ -5,13 +5,14 @@ import { HeaderRoutingModule } from './header-routing.module';
 import { HeaderComponent } from './header.component';
 
 
+// #refectored Declared in app.module.ts
 @NgModule({
-  declarations: [
-    HeaderComponent
-  ],
-  imports: [
-    CommonModule,
-    HeaderRoutingModule
-  ]
+//   declarations: [
+//     HeaderComponent
+//   ],
+//   imports: [
+//     CommonModule,
+//     HeaderRoutingModule
+//   ]
 })
 export class HeaderModule { }
