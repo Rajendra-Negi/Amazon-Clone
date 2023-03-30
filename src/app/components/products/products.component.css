@@ -1,0 +1,428 @@
+.nav-main {
+  max-height: 39px;
+  background-color: #232f3e;
+  color: #fff;
+  padding: 0 5px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-items {
+  width: 70%;
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+}
+
+.nav-links:nth-child(1) {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.nav-links:link,
+.nav-links:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links:hover,
+.nav-links:active {
+  color: #fff;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  padding-right: 4px;
+}
+
+.arrow-down {
+  width: 16px;
+}
+
+.prime {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.carousel {
+  display: block;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.products-container {
+  position: relative;
+  margin-top: -25%;
+  padding: 20px;
+  min-height: 100px;
+  background-image: linear-gradient(to bottom, transparent, #ddd);
+}
+
+.card,
+.sub-card {
+  background-color: #fff;
+  padding: 20px 15px;
+}
+
+.card {
+  color: #000;
+  min-height: 50px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.sub-card:nth-child(1) {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.sub-card:nth-child(2) {
+  padding: 0;
+}
+
+.transparent {
+  background-color: transparent;
+  padding: 0;
+}
+
+.card-header {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card a {
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 20px;
+}
+
+.card a:link,
+.card a:visited {
+  text-decoration: none;
+  color: #007185;
+}
+
+.card a:hover,
+.card a:active {
+  text-decoration: underline;
+  color: orange;
+}
+
+.sub-card {
+  position: relative;
+}
+
+.sub-card span {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.sub-card span a:link,
+.sub-card span a:visited {
+  text-decoration: none;
+  color: #007185;
+}
+
+.sub-card span a:hover,
+.sub-card span a:active {
+  text-decoration: underline;
+  color: orange;
+}
+
+.card-items img {
+  padding: 10px 0 0;
+  width: 186px;
+  height: 120px;
+}
+
+.card-items p,
+.card .card-header {
+  color: #0f1111;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+
+.card-items p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  font-size: 12px;
+}
+
+.card .card-header {
+  -webkit-line-clamp: 2;
+}
+
+.card .sub-card .card-header {
+  display: block;
+}
+
+.sell-on-amazon {
+  width: 35%;
+  padding: 15px 5px;
+}
+
+.recommendation-section {
+  grid-template-columns: 2.05fr 1fr 1fr;
+}
+
+.prime-card {
+  position: relative;
+  color: #fff;
+  padding: 0;
+}
+
+.prime_video_banner {
+  width: 100%;
+  height: 100%;
+}
+
+.prime-card-header-text {
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.prime-card-header-text .prime-card-sub-text {
+  position: relative;
+  left: 0;
+}
+
+.prime-card-sub-text {
+  font-size: 14px;
+  bottom: 10px;
+  left: 10px;
+  position: absolute;
+}
+
+.clearance-store-img {
+  padding: 10px 0;
+  height: 80%;
+}
+
+.suggestions-container .card {
+  overflow: hidden;
+}
+
+.items-container {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  position: relative;
+}
+
+.items-container:hover {
+  overflow-x: scroll;
+}
+
+.items-container .card-items {
+  padding: 10px 5px;
+}
+
+.items-container:hover .arrow {
+  opacity: 1;
+  display: block;
+}
+
+.items-container:hover .control {
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.control {
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5em;
+  font-weight: bold;
+  font-size: 3em;
+  height: 100px;
+  width: 45px;
+  transition: opacity 150ms cubic-bezier(0.25, 0.46, 0.45, 0.84);
+  margin-top: -24px;
+}
+
+.control.next {
+  right: 0;
+  padding: 0.2em;
+}
+
+.control.prev {
+  left: 0;
+}
+
+.arrow {
+  display: none;
+  border-left: 0.1em solid #000;
+  border-bottom: 0.1em solid #000;
+  width: 0.5em;
+  height: 0.5em;
+}
+
+.arrow.left {
+  transform: rotate(45deg);
+}
+
+.arrow.right {
+  transform: rotate(225deg);
+}
+
+.img-bcg {
+  width: 240px;
+  height: 200px;
+  background-color: rgba(15, 17, 17, 0.03);
+  margin: 10px 0 8px 0;
+}
+
+.img-bcg > img {
+  margin: 0 auto;
+  width: 144px;
+  height: 188px;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 4px;
+}
+
+.chip-label {
+  background-color: #cc0c39;
+  color: #fff !important;
+  padding: 4px 6px;
+  margin-right: 6px;
+  border-radius: 2px;
+  line-height: 12px;
+}
+
+.chip-message {
+  color: #cc0c39;
+  background-color: #fff;
+}
+
+.sponsor {
+  position: relative;
+  /* margin-bottom: 20px; */
+  width: 75%;
+  margin: 0 auto;
+}
+
+.sponsored-card {
+  min-height: 30px;
+  background-color: #fff;
+  text-align: left;
+  padding: 50px 20px;
+  grid-template-columns: 1fr 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.sponsor-headline {
+  color: rgb(17, 17, 17);
+  font-weight: 700;
+}
+
+.sponsor-product-heading {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.stars {
+  display: flex;
+  height: 15px;
+  width: 15px;
+  font-size: 12px;
+  color: rgb(85, 85, 85, 1);
+  line-height: 1.2;
+}
+
+.sponsor-badge-text {
+  color: #fff;
+  padding: 1px 4px 1px 6px;
+  font-size: 0.85em;
+  border-radius: 2px;
+  background-color: rgb(229, 123, 0);
+  width: max-content;
+  margin: 4px 0;
+}
+
+.deal-price {
+  display: flex;
+}
+
+.price {
+  font-size: 14px;
+  color: rgb(177, 39, 4);
+  line-height: 1.2;
+  display: flex;
+}
+
+.currency {
+  font-size: 12px;
+  vertical-align: baseline;
+  position: relative;
+}
+
+.price-whole {
+  color: rgb(177, 39, 4);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.price-decimal {
+  font-size: 12px;
+  vertical-align: super;
+  padding-left: 1px;
+  position: relative;
+}
+
+.full-price {
+  font-size: 14px;
+  text-decoration-line: line-through;
+  color: rgb(85, 85, 85);
+  line-height: 18px;
+  margin-top: 10px;
+  padding: 0 4px;
+}
+
+.prime-logo {
+  height: 12px;
+  width: 4;
+  margin-top: 13px;
+}
+
+.feedback-text {
+  color: rgb(85, 85, 85);
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.info-icon {
+  width: 12px;
+  display: inline-flex;
+  vertical-align: middle;
+}

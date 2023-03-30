@@ -1,0 +1,146 @@
+.footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  color: #fff;
+}
+
+.back-section {
+  background-color: #37475a;
+  padding: 15px 0;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* info section */
+.info-section {
+  background-color: #232f3e;
+  padding: 30px 0;
+}
+
+.connect {
+  border-bottom: 0.5px solid #3a4553;
+  padding: 0 150px 40px;
+}
+
+.connect-header {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 6px 0 14px;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.connect-link:link,
+.connect-link:visited {
+  text-decoration: none;
+  font-size: 14px;
+  color: #ddd;
+  transition: all 0.3s;
+}
+
+.connect-link:hover,
+.connect-link:active {
+  color: #ddd;
+}
+
+.lang-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.lang-selector-dropdown {
+  display: flex;
+  border: 1px solid #848688;
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: 70px;
+}
+
+.lang {
+  padding: 0 4px;
+}
+
+.globe-icon {
+  width: 14px;
+  margin-right: 5px;
+}
+
+.arrow-down {
+  width: 24px;
+  height: 16px;
+  margin-left: -4px;
+}
+
+.country-name {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.country-nav {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.country-name:link,
+.country-name:visited {
+  text-decoration: none;
+  font-size: 12px;
+  color: #ddd;
+  transition: all 0.3s;
+}
+
+.country-name:hover,
+.country-name:active {
+  color: #ddd;
+}
+
+/* additional info */
+
+.additional-info {
+  background-color: #131a22;
+  padding: 30px 0;
+}
+
+.additional-info div:first-child {
+  padding-bottom: 30px;
+}
+
+.other-services {
+  width: 76%;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.other-services a:link,
+.other-services a:visited {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.other-services a:hover,
+.other-services a:active {
+  text-decoration: underline;
+  color: #ddd;
+}
+
+.nav-line-2 {
+  color: #999 !important;
+}
+
+.terms {
+  text-align: center;
+}
+
+.terms-link {
+  padding: 0 0.6rem;
+}
