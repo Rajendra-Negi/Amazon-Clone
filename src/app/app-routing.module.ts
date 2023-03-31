@@ -4,7 +4,7 @@ import { AppLayoutComponent } from './layout/app-layout/app-layout.component';
 
 const routes: Routes = [
   {
-    path: 'test',
+    path: '',
     component: AppLayoutComponent,
     children: [
       {
@@ -12,13 +12,35 @@ const routes: Routes = [
         loadChildren: () =>
           import('./pages/home/home.module').then((m) => m.HomeModule),
       },
+      {
+        path: 'account',
+        loadChildren: () =>
+          import('./pages/account/account.module').then((m) => m.AccountModule),
+      },
+      {
+        path: 'more',
+        loadChildren: () =>
+          import('./pages/more/more.module').then((m) => m.MoreModule),
+      },
+      {
+        path: 'checkout',
+        loadChildren: () =>
+          import('./pages/checkout/checkout.module').then(
+            (m) => m.CheckoutModule
+          ),
+      },
+      {
+        path: '',
+        redirectTo: 'home',
+        pathMatch: 'full',
+      },
     ],
   },
-  {
-    path: 'home',
-    loadChildren: () =>
-      import('./pages/home/home.module').then((m) => m.HomeModule),
-  },
+  // {
+  //     path: 'home',
+  //     loadChildren: () =>
+  //         import('./pages/home/home.module').then((m) => m.HomeModule),
+  // },
   {
     path: 'account',
     loadChildren: () =>
