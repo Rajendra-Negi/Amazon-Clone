@@ -7,13 +7,12 @@ import { FooterComponent } from 'src/app/components/footer/footer.component';
 import { HeaderComponent } from 'src/app/components/header/header.component';
 
 @NgModule({
-    // imports: [
-    //     CommonModule,
-    //     AppLayoutRoutingModule,
-
-    // HeaderComponent,
-    // FooterComponent,
-    // ],
-    // declarations: [ AppLayoutComponent],
+  // imports: [
+  //     CommonModule,
+  //     AppLayoutRoutingModule,
+  // HeaderComponent,
+  // FooterComponent,
+  // ],
+  // declarations: [ AppLayoutComponent],
 })
-export class AppLayoutModule { }
+export class AppLayoutModule {}

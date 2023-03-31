@@ -14,14 +14,14 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AppLayoutComponent } from './layout/app-layout/app-layout.component';
 
 @NgModule({
-    imports: [BrowserModule, AppRoutingModule],
-    declarations: [
-        AppComponent,
-        HeaderComponent,
-        FooterComponent,
-        AppLayoutComponent
-    ],
-    providers: [],
-    bootstrap: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    AppLayoutComponent,
+  ],
+  providers: [],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
